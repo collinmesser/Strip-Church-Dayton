@@ -1,4 +1,4 @@
-# strip-church
+# Strip Church Dayton
 
 ## Project setup
 ```
