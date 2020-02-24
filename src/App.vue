@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Hero />
     <Home msg="Welcome to Your Vue.js App"/>
     <Footer />
   </div>
@@ -9,6 +10,7 @@
 <script>
 import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
+import Hero from './components/Hero.vue';
 import Home from './components/Home.vue';
 
 export default {
@@ -16,6 +18,7 @@ export default {
   components: {
     Footer,
     Header,
+    Hero,
     Home,
   }
 }
