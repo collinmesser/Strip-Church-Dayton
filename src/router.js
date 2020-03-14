@@ -12,5 +12,30 @@ export default new Router({
       name: 'home',
       component: Home,
     },
+    {
+      path: 'team',
+      name: 'Our Team',
+      component: Home,
+    },
+    {
+      path: 'outreach',
+      name: 'Outreach',
+      component: Home,
+    },
+    {
+      path: 'mission',
+      name: 'Our Mission',
+      component: Home,
+    },
+    {
+      path: 'support',
+      name: 'How to Support',
+      component: Home,
+    },
+    {
+      path: 'dancers',
+      name: 'For Dancers',
+      component: Home,
+    },
   ],
 });

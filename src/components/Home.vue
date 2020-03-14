@@ -9,13 +9,16 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: {
+      type: String,
+      default: '',
+    },
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 h3 {
   margin: 40px 0 0;
 }

@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <Hero />
-    <Home msg="Welcome to Your Vue.js App"/>
+    <Home msg="Welcome to Your Vue.js App" />
     <Footer />
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 body {
   margin: 0;
 }
