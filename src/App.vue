@@ -2,24 +2,53 @@
   <div id="app">
     <Header />
     <Hero />
-    <Home msg="Welcome to Your Vue.js App" />
+    <CallOut
+      :heading="heading"
+      :link-path="mission"
+      :link-text="text"
+    >
+      <template v-slot:img>
+        <p>God delights in showing unfailing love.</p>
+      </template>
+      <template v-slot:text>
+        <p>God delights in showing unfailing love.</p>
+      </template>
+    </CallOut>
+    <Quote>
+      <template v-slot:quote>
+        <p>God delights in showing unfailing love.</p>
+      </template>
+      <template v-slot:author>
+        <p>Micah 7:18</p>
+      </template>
+    </Quote>
+    <CallOut />
+    <CallOut />
+    <Quote>
+      <template v-slot:quote>
+        <p>You are a precious Gem.</p>
+      </template>
+    </Quote>
+    <CallOut />
     <Footer />
   </div>
 </template>
 
 <script>
+import CallOut from './components/CallOut.vue';
 import Footer from './components/Footer.vue';
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
-import Home from './components/Home.vue';
+import Quote from './components/Quote.vue';
 
 export default {
   name: 'App',
   components: {
+    CallOut,
     Footer,
     Header,
     Hero,
-    Home,
+    Quote
   }
 }
 </script>

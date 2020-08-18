@@ -72,7 +72,7 @@ export default {
 nav {
   display: flex;
   align-items: center;
-  background: rgb(56,183,151);
+  background: rgba(56,183,151,.37);
   /* background: linear-gradient(180deg, rgba(56,183,151,1) 0%, rgba(44,117,138,1) 47%, rgba(89,78,134,0.4962184702982756) 91%); */
   height: 100px;
   width: 100%;
