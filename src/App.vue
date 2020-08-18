@@ -2,11 +2,7 @@
   <div id="app">
     <Header />
     <Hero />
-    <CallOut
-      :heading="heading"
-      :link-path="mission"
-      :link-text="text"
-    >
+    <CallOut :heading="heading" :link-path="mission" :link-text="text">
       <template v-slot:img>
         <p>God delights in showing unfailing love.</p>
       </template>
@@ -35,22 +31,22 @@
 </template>
 
 <script>
-import CallOut from './components/CallOut.vue';
-import Footer from './components/Footer.vue';
-import Header from './components/Header.vue';
-import Hero from './components/Hero.vue';
-import Quote from './components/Quote.vue';
+import CallOut from "@/components/CallOut.vue";
+import Footer from "@/components/Footer.vue";
+import Header from "@/components/Header.vue";
+import Hero from "@/components/Hero.vue";
+import Quote from "@/components/Quote.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     CallOut,
     Footer,
     Header,
     Hero,
-    Quote
-  }
-}
+    Quote,
+  },
+};
 </script>
 
 <style lang="scss">
