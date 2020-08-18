@@ -2,7 +2,11 @@
   <div id="app">
     <Header />
     <Hero />
-    <CallOut :heading="heading" :link-path="mission" :link-text="text">
+    <CallOut
+      heading="heading"
+      link-path="mission"
+      link-text="text"
+    >
       <template v-slot:img>
         <p>God delights in showing unfailing love.</p>
       </template>
@@ -18,14 +22,11 @@
         <p>Micah 7:18</p>
       </template>
     </Quote>
-    <CallOut />
-    <CallOut />
     <Quote>
       <template v-slot:quote>
         <p>You are a precious Gem.</p>
       </template>
     </Quote>
-    <CallOut />
     <Footer />
   </div>
 </template>

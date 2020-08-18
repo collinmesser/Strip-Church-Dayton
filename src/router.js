@@ -1,39 +1,39 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '@/components/Home.vue';
+import App from './App.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home,
+    name: 'app',
+    component: App,
   },
   {
-    path: 'team',
+    path: '/team',
     name: 'Our Team',
-    component: Home,
+    component: App,
   },
   {
-    path: 'outreach',
+    path: '/outreach',
     name: 'Outreach',
-    component: Home,
+    component: App,
   },
   {
-    path: 'mission',
+    path: '/mission',
     name: 'Our Mission',
-    component: Home,
+    component: App,
   },
   {
-    path: 'support',
+    path: '/support',
     name: 'How to Support',
-    component: Home,
+    component: App,
   },
   {
-    path: 'dancers',
+    path: '/dancers',
     name: 'For Dancers',
-    component: Home,
+    component: App,
   },
 ];
 
