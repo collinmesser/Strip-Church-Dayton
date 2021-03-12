@@ -2,14 +2,14 @@
   <header class="header">
     <div class="top-bar" />
     <nav>
-      <router-link to="/">
+      <!-- <router-link to="/">
         <img
           class="logo"
           src="@/assets/logo-black-color.png"
           alt="Strip Church Dayton Logo"
         />
-      </router-link>
-      <ul>
+      </router-link> -->
+      <!-- <ul>
         <li>
           <router-link to="team">
             Gem Team
@@ -35,7 +35,7 @@
             For Dancers
           </router-link>
         </li>
-      </ul>
+      </ul> -->
       <div class="social-links">
           <a href="https://www.instagram.com/stripchurchdayton">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="48" height="48" viewBox="0 0 48 48" role="img">
@@ -78,7 +78,8 @@ nav {
   align-items: center;
   background: rgba(56, 183, 151, 0.37);
   /* background: linear-gradient(180deg, rgba(56,183,151,1) 0%, rgba(44,117,138,1) 47%, rgba(89,78,134,0.4962184702982756) 91%); */
-  height: 100px;
+  justify-content: space-between;
+  height: 5px;
   width: 100%;
 
   img.logo {
@@ -88,13 +89,17 @@ nav {
 
   .social-links {
     display: flex;
+    margin-left: 1em;
+    a {
+      margin-right: -1em;
+    }
   }
 
   ul {
     display: flex;
     width: 100%;
     li {
-      font-size: 1.25em;
+      font-size: 1em;
       list-style: none;
       margin-right: 1.25em;
 

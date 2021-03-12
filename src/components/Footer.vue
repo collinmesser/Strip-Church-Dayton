@@ -4,11 +4,11 @@
       <router-link to="/">
         <img
           class="logo"
-          src="@/assets/logo-black-color.png"
+          src="@/assets/logo-white.png"
           alt="Strip Church Dayton Logo"
         />
       </router-link>
-      <ul>
+      <!-- <ul>
         <li>
           <router-link to="team">
             Gem Team
@@ -34,7 +34,7 @@
             For Dancers
           </router-link>
         </li>
-      </ul>
+      </ul> -->
       <div class="social-links">
           <a href="https://www.instagram.com/stripchurchdayton">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"  width="48" height="48" viewBox="0 0 48 48" role="img">
@@ -77,6 +77,7 @@ export default {
 footer {
   background: linear-gradient(90deg, rgba(56,183,151,1) 0%, rgba(44,117,138,1) 47%, rgba(89,78,134,0.4962184702982756) 91%);
   display: flex;
+  flex-wrap: wrap;
   padding: 2em;
 }
 
@@ -103,6 +104,18 @@ nav {
         color: #fff;
       }
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%
+  }
+}
+
+.quote {
+  @media only screen and (max-width: 768px) {
+    font-size: 2em;
+    padding: 0;
+    width: 100%
   }
 }
 </style>

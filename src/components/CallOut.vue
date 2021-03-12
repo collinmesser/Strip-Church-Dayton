@@ -46,12 +46,21 @@ export default {
   background: #fff;
   color: #000;
   display: flex;
-  margin: 6em 0;
+  flex-wrap: wrap;
+  margin: 4em 0;
 
   .gradient-bar {
     background: linear-gradient(90deg, rgba(56,183,151,1) 0%, rgba(44,117,138,1) 47%, rgba(89,78,134,1) 91%);
     height: 10px;
     width: 85px;
+  }
+
+  img {
+    width: 100%;
+    
+    @media only screen and (min-width: 768px) {
+      width: 50%
+    }
   }
 
   .text-container {
@@ -60,6 +69,11 @@ export default {
     justify-content: center;
     padding: 6em 4em;
     text-align: left;
+    width: 100%;
+
+    @media only screen and (min-width: 768px) {
+      width: 50%
+    }
   }
 }
 </style>

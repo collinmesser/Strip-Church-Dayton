@@ -5,14 +5,12 @@
     <CallOut
       heading="Gem Team"
       imageSide="right"
-      link-path="team"
-      link-text="Get to know our team"
     >
       <template v-slot:img>
         <img src="./assets/group-truck.jpg" alt="Team">
       </template>
       <template v-slot:text>
-        <p>We are commited to bringing love and joy to the women and men in the adult entertainment industry.</p>
+        <p>We don't consist of one church, but there are many members of our team that represent various churches in the Dayton area.</p>
       </template>
     </CallOut>
     <Quote>
@@ -26,27 +24,23 @@
     <CallOut
       heading="Outreach"
       imageSide="left"
-      link-path="outreach"
-      link-text="About our outreach"
     >
       <template v-slot:img>
         <img src="./assets/group-packing.jpg" alt="Team">
       </template>
       <template v-slot:text>
-        <p>Currently, we are serving at Cheeks Gentlemen’s Cluband Diamond’s Caberet.</p>
+        <p>Currently, we are serving at Cheeks Gentlemen’s Club and Diamond’s Caberet.</p>
       </template>
     </CallOut>
     <CallOut
       heading="Our Mission"
       imageSide="right"
-      link-path="mission"
-      link-text="About our mission"
     >
       <template v-slot:img>
         <img src="./assets/group-walking.jpg" alt="Team">
       </template>
       <template v-slot:text>
-        <p>Our mission is all about spreading the love of Godto the Gems in the City of Dayton.</p>
+        <p>We are commited to bringing love and joy to the women and men in the adult entertainment industry.</p>
       </template>
     </CallOut>
     <Quote>
@@ -90,8 +84,12 @@ export default {
 </script>
 
 <style lang="scss">
+html {
+  font-size: 16px;
+}
+
 body {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
 }
 

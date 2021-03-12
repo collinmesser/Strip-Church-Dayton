@@ -16,7 +16,7 @@ export default {
 .quote {
   display: block;
   flex-wrap: wrap;
-  font-size: 3.5em;
+  font-size: 3em;
   padding: 0 2em;
   text-align: center;
 
